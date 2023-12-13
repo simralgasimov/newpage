@@ -60,9 +60,8 @@
     }
   }
   .menu-list{
-    background: linear-gradient(270deg, #7743DB 31.64%, #5725E5 66.78%);
-    box-shadow: 0px 26px 50px 14px rgba(0, 0, 0, 0.20);   
-     display: flex;
+    background-color: #5725e5;
+    display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 20px;
@@ -74,7 +73,6 @@ font-size: 24px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-text-decoration: none;
     }
   }
   .box-container {

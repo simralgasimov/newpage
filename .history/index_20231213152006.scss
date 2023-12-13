@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("./image/Rectangle\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  width: 100%;
+  nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(270deg, #7743db 31.64%, #5725e5 66.78%);
+    padding: 20px 30px;
+    @media screen and (max-width: 1024px) {
+      justify-content: space-between;
+    }
+    .burgerMenu {
+      display: none;
+      @media screen and (max-width: 1024px) {
+        display: block;
+      }
+    }
+    .logo-img {
+      width: 139px;
+      height: 39px;
+      @media screen and (max-width: 1024px) {
+        width: 97px;
+        height: 27px;
+      }
+    }
+
+    ul {
+        display: flex;
+        /* margin-left: 200px; */
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+ 
+
+      li {
+        margin-left: 73px;
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          width: 98px;
+          height: 30px;
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+}
